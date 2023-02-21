@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+* {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  color: #fff;
+}
+
+.about {
+  padding: 50px;
+}
+
+.main-body {
+  background: url('../images/body-bg.jpg');
+}
+
+.main-footer {
+  background: url('../images/header-bg.jpg');
+  height: 14vh;
+}
+
+.about {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.profile-pic {
+  border-radius: 50%;
+  width: 25%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-head, .about-text {
+  margin: 50px auto;
 }
