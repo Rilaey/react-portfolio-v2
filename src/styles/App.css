@@ -27,7 +27,7 @@ p {
 
 .main-footer {
   background-color: #012A36;
-  height: 14vh;
+  height: 17vh;
 }
 
 .about {
@@ -44,6 +44,27 @@ p {
 }
 
 .about-head, .about-text {
-  margin: 50px auto;
+  margin: 25px auto;
   color: #E6BCCD;
+}
+
+.about-text {
+  font-size: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.c-text {
+  margin: 13px 0;
+  color: #E6BCCD;
+}
+
+.c-btn {
+  background: none;
 }
