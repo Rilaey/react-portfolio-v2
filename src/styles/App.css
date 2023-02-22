@@ -22,11 +22,11 @@ p {
 }
 
 .main-body {
-  background: url('../images/body-bg.jpg');
+  background-color: #3F334D;
 }
 
 .main-footer {
-  background: url('../images/header-bg.jpg');
+  background-color: #012A36;
   height: 14vh;
 }
 
@@ -45,4 +45,5 @@ p {
 
 .about-head, .about-text {
   margin: 50px auto;
+  color: #E6BCCD;
 }

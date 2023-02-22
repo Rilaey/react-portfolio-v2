@@ -3,7 +3,7 @@
 }
 
 .header-div {
-    background-image: url('../images/header-bg.jpg');
+    background-color: #012A36;
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -13,6 +13,7 @@
 
 .header-text {
     font-size: 48px;
+    color: #E6BCCD;
 }
 
 @media screen and (max-width: 1060px) {
@@ -20,3 +21,10 @@
       font-size: 28px;
     }
   }
+
+
+@media screen and (max-width: 780px) {
+    .header-text {
+        color: transparent;
+    }
+}
