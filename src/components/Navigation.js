@@ -18,7 +18,7 @@ export default function Navigation() {
         Contact
       </a>
 
-      <a className="nav-link">Resume</a>
+      <a className="nav-link" onClick={() => location("/resume")}>Resume</a>
     </div>
   );
 }

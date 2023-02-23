@@ -1,0 +1,30 @@
+.resume-link {
+    font-size: 24px;
+    margin: 0 25px;
+    cursor: pointer;
+    color: #E6BCCD;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    opacity: .8;
+    transform: translateY(-5px);
+    color: #012A36;
+}
+
+.pros {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+}
+
+.pro-head {
+    color: #E6BCCD;
+    border-bottom: 3px solid #E6BCCD;
+}
+
+li {
+    color: #E6BCCD;
+}
