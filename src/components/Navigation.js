@@ -1,24 +1,42 @@
-import React from "react";
+import { React, useState } from "react";
 import "../styles/Navigation.css";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export default function Navigation() {
   let location = useNavigate();
+
+  const { pathname } = useLocation()
+
+  const [links, setLinks] = useState([
+    {
+      name: "About",
+      href: '/'
+    },
+    {
+      name: "Projects",
+      href: '/projects'
+    },
+    {
+      name: "Contact",
+      href: '/contact'
+    },
+    {
+      name: "Resume",
+      href: '/resume'
+    },
+  ])
   return (
     <div className="nav-div">
-      <a className="nav-link" onClick={() => location("/")}>
-        About
-      </a>
-
-      <a className="nav-link" onClick={() => location("/projects")}>
-        Projects
-      </a>
-
-      <a className="nav-link" onClick={() => location("/contact")}>
-        Contact
-      </a>
-
-      <a className="nav-link" onClick={() => location("/resume")}>Resume</a>
+      {links.map((link) => {
+        return (
+          <a style={{
+            backgroundColor: pathname === link.href ? "black" : "none",
+            width: pathname === link.href ? "105px" : "100px"
+          }} className="nav-link" onClick={() => {
+            location(link.href)
+          }}>{link.name}</a>
+        )
+      })}
     </div>
   );
 }

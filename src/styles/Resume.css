@@ -27,4 +27,19 @@
 
 li {
     color: #E6BCCD;
+    margin: 10px auto;
+}
+
+@media screen and (max-width: 875px) {
+    .pros {
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .front, .back {
+        margin: 10px auto;
+    }
 }
