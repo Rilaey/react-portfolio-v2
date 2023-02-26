@@ -31,7 +31,8 @@ export default function Navigation() {
         return (
           <a style={{
             backgroundColor: pathname === link.href ? "black" : "none",
-            width: pathname === link.href ? "105px" : "100px"
+            width: pathname === link.href ? "117px" : "100px",
+            borderRadius: pathname === link.href ? "15%" : "100%"
           }} className="nav-link" onClick={() => {
             location(link.href)
           }}>{link.name}</a>
