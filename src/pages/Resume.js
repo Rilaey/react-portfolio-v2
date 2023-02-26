@@ -85,13 +85,13 @@ export default function Resume() {
         <div className="front">
           <h2 className="pro-head">Front End Skills</h2>
           {frontSkills.map((item) => {
-            return <li>{item.name}</li>;
+            return <li className="items">{item.name}</li>;
           })}
         </div>
         <div className="back">
           <h2 className="pro-head">Back End Skills</h2>
           {backSkills.map((item) => {
-            return <li>{item.name}</li>;
+            return <li className="items">{item.name}</li>;
           })}
         </div>
       </div>

@@ -25,9 +25,9 @@
     border-bottom: 3px solid #E6BCCD;
 }
 
-li {
+.items {
     color: #E6BCCD;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 @media screen and (max-width: 875px) {

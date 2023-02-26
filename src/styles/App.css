@@ -61,10 +61,19 @@ p {
 }
 
 .c-text {
-  margin: 13px 0;
+  margin: 20px 0;
   color: #E6BCCD;
+  display: flex;
 }
 
 .c-btn {
   background: none;
+}
+
+.input-text {
+  color: black;
+}
+
+label {
+  font-size: 20px;
 }

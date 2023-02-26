@@ -17,15 +17,20 @@ export default function Contact() {
           required
           min={4}
           type="text"
-          className="c-text"
+          className="c-text input-text"
+          style={{
+            width: '50%'
+          }}
         />
         <label className="c-text">Email:</label>
-        <input placeholder="Email" required type="email" className="c-text" />
+        <input placeholder="Email" required type="email" className="c-text input-text"          style={{
+            width: '50%'
+          }}/>
         <label required className="c-text">
           Message:
         </label>
         <textarea
-          class="form-control c-text"
+          class="form-control c-text input-text"
           rows="5"
           type="text"
           placeholder="Message"
