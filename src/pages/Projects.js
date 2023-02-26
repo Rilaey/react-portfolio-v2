@@ -74,7 +74,7 @@ export default function Projects() {
               title={project.title}
               description={project.description}
               repo={project.repo}
-              application={project.repo}
+              application={project.application}
             />
           );
         })}
