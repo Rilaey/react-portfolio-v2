@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fdc8d66.css",
-    "main.js": "/static/js/main.d3c17fc0.js",
+    "main.css": "/static/css/main.be5aaa3d.css",
+    "main.js": "/static/js/main.df2064b0.js",
     "static/media/WeatherLogo.jpg": "/static/media/WeatherLogo.a1e34d1b2b5d6a8def83.jpg",
     "static/media/password.jpg": "/static/media/password.c9257d61632ca1bcc2fa.jpg",
     "static/media/BackyardSportsLogo1.png": "/static/media/BackyardSportsLogo1.7a69f0bb7c46443dc9bf.png",
@@ -11,11 +11,11 @@
     "static/media/text-edit.jpeg": "/static/media/text-edit.5c095930aeeaa955509c.jpeg",
     "index.html": "/index.html",
     "static/media/white-github.svg": "/static/media/white-github.97ed8e7eef60d61ca469881dd6f34511.svg",
-    "main.9fdc8d66.css.map": "/static/css/main.9fdc8d66.css.map",
-    "main.d3c17fc0.js.map": "/static/js/main.d3c17fc0.js.map"
+    "main.be5aaa3d.css.map": "/static/css/main.be5aaa3d.css.map",
+    "main.df2064b0.js.map": "/static/js/main.df2064b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fdc8d66.css",
-    "static/js/main.d3c17fc0.js"
+    "static/css/main.be5aaa3d.css",
+    "static/js/main.df2064b0.js"
   ]
 }
