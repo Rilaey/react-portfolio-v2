@@ -32,7 +32,7 @@ export default function Navigation() {
           <a
             style={{
               backgroundColor: pathname === link.href ? "black" : "none",
-              width: pathname === link.href ? "117px" : "100px",
+              width: pathname === link.href ? "100%px" : "80%",
               borderRadius: pathname === link.href ? "15%" : "100%"
             }}
             className="nav-link"
