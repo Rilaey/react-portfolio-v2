@@ -50,8 +50,9 @@
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 391px) {
     .nav-link {
-        font-size: 13px;
+        font-size: 10px;
+        margin: 8px auto;
     }
 }
