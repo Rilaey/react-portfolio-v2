@@ -18,9 +18,9 @@ export default function About() {
           className="profile-pic"
         />
         <p className="about-text">
-          I began my coding journey half way through 2022 and quickly fell in
+          I began my coding journey half way through 2022. I quickly fell in
           love with learning and the problem solving aspects of programming.
-          About a year after being self taught I enrolled at the University of
+          About a year after being self taught, I enrolled at the University of
           Central Flordia full stack coding bootcamp to have a more structured
           learning process. Currently I'm looking for my first job in this field
           and I would love to dive head first into the industry! Thank you for
